@@ -16,8 +16,6 @@ Real-time open-source voice modification program & sound board. Can be useful fo
 
 ![figaro collage](media/figaro-collage.png)
 
-![figaro demo](media/figaro-demo.gif)
-
 ## Table of Contents
 
 - [About](#about)
@@ -216,14 +214,25 @@ Just a small preview of what is about to come. It's very likely that this roadma
   * [x] Encrypted sockets
   * [ ] Fine-grained settings
 
-## References
+## Author
 
-* Windows Virtual Sound I/O ... [vb-audio](https://www.vb-audio.com/Cable/)
-* PyAudio Windows Wheel ... [uci](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
-* FFmpeg download ... [ffmpeg.org](https://ffmpeg.org/download.html)
-* JWT minimum secret length ... [RFC 7518](https://tools.ietf.org/html/rfc7518#section-3.2)
-* JWT recommended secret length ... [Auth0](https://auth0.com/blog/brute-forcing-hs256-is-possible-the-importance-of-using-strong-keys-to-sign-jwts/)
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
 
----
+<h3 align="center">Hi there 👋, I'm Vikas</h3>
+<h4 align="center">Just learning New Skills😀</h4>
 
-... MattMoony (June 2021)
+<div id="socials" align="center">
+  <a href="https://www.linkedin.com/in/vikas-sharma005">
+    <img src="https://user-images.githubusercontent.com/76098066/186728913-a66ef85f-4644-4e3a-b847-98309c8cff42.svg">
+  </a>
+  <a href="https://www.instagram.com/_thisisvikas">
+    <img src="https://user-images.githubusercontent.com/76098066/186728908-f1a9919a-f4b2-4262-9515-683e77f8aabf.svg">
+  </a>
+  <a href="https://twitter.com/hitechvikas05">
+    <img src="https://user-images.githubusercontent.com/76098066/186728901-a4d90f01-2cdf-45c1-a1b3-73467c3d2698.svg">
+  </a>
+</div>
+
+You can find more about me and my projects on my [GitHub profile](https://github.com/vikasharma005).
