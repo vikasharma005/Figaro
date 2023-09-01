@@ -41,11 +41,11 @@ Real-time open-source voice modification program & sound board. Can be useful fo
 
 ## Setup
 
-If you're just looking to use *Figaro* and not work on it, then there's no reason to set up the development environment like described below, simply download the appropriate release for your platform from the [releases](https://github.com/MattMoony/figaro/releases) page and you're good to go!
+If you're just looking to use *Figaro* and not work on it, then there's no reason to set up the development environment like described below, simply download the appropriate release for your platform from the [releases](https://github.com/vikasharma005/Figaro/releases) page and you're good to go!
 
 <div align="center">
-  <a href="https://github.com/MattMoony/figaro/releases/download/v0.3-alpha/Figaro.Setup.0.3.0-alpha.exe"><img src="media/download-windows.png" height="75px" /></a>
-  <a href="https://github.com/MattMoony/figaro/releases/download/v0.3-alpha/figaro-gui-0.3.0-alpha.tar.gz"><img src="media/download-linux.png" height="75px" /></a>
+  <a href="https://github.com/vikasharma005/Figaro/releases/download/alpha/Figaro.Setup.0.3.0-alpha.exe"><img src="media/download-windows.png" height="75px" /></a>
+  <a href="https://github.com/vikasharma005/Figaro/releases/download/v0.3-alpha/figaro-gui-0.3.0-alpha.tar.gz"><img src="media/download-linux.png" height="75px" /></a>
 </div>
 
 ### Development
@@ -92,7 +92,7 @@ If everything works out, you're good to go!
 
 The following steps will explain how to use this program with the commonly used voice-chat application `Discord` on Windows:
 
-1. Download and install a virtual audio input device (if you don't know any specific one, try the one mentioned in [References](#References)).
+1. Download and install a virtual audio input device.
 2. When selecting an output device at the startup of `Figaro`, choose the virtual input device you just installed (e.g.: `CABLE Input`).
 3. In Discord, go to `User Settings > Voice & Video > Input Device` and select the virtual input device from the dropdown (e.g.: `CABLE Output`).
 4. There you go, your friends should only be able to hear your filtered voice now.
@@ -115,9 +115,9 @@ You can now also use figaro script (.fig) for defining hotkeys and their behavio
 
 Figaro-Script was heavily inspired by [AutoHotkey](https://www.autohotkey.com/), so, if you are capable of defining hotkeys and their functionality with ahk-script, think of this as a very, very simplified version of that.
 
-But, if you aren't aware of ahk, let me introduce you to the basic syntax very quickly:
+But, if you aren't aware of AHK, let me introduce you to the basic syntax very quickly:
 
-Your script, the .fig file, consists of multiple hotkey-definition blocks which tell Figaro which key combinations should result in what behaviour. Apart from that, you can also have comments, to make your script more readable and easier to understand for a future you.
+Your script, the.fig file, consists of multiple hotkey-definition blocks that tell Figaro which key combinations should result in what behavior. Apart from that, you can also have comments to make your script more readable and easier to understand for future readers.
 
 #### Defining a Hotkey
 
@@ -133,15 +133,15 @@ return
 ...
 ```
 
-... this hotkey would be triggered every time the `q` is pressed.
+This hotkey would be triggered every time the `q` is pressed.
 
-Certain control keys need alternative symbols (this is equalivalent to ahk-script):
+Certain control keys need alternative symbols (this is equivalent to ahk-script):
 
 * `alt` is represented by `!`
 * `ctrl` is represented by `^`
 * `shift` is represented by `+`
 
-... keep in mind that the definition of hotkeys is usually case insensitive, which means in order to, for example, only trigger the hotkey on an uppercase `Q`, you would need to use `+q::` as your definition.
+Keep in mind that the definition of hotkeys is usually case insensitive, which means in order to, for example, only trigger the hotkey on an uppercase `Q`, you would need to use `+q::` as your definition.
 
 #### Comments
 
