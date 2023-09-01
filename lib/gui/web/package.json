@@ -1,0 +1,52 @@
+{
+  "name": "figaro-gui",
+  "description": "The GUI for Figaro built with Gatsby.",
+  "version": "0.1.0",
+  "author": "MattMoony <m4ttm00ny@gmail.com>",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "chart.js": "^2.9.4",
+    "gatsby": "^2.30.2",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-manifest": "^2.10.0",
+    "gatsby-plugin-offline": "^3.8.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sass": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.12.1",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-sharp": "^2.10.1",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-qr-code": "^1.1.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "GPLv3",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMoony/figaro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MattMoony/figaro/issues"
+  },
+  "homepage": "https://github.com/MattMoony/figaro#readme"
+}

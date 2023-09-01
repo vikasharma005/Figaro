@@ -1,0 +1,41 @@
+.header {
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #072435;
+  box-shadow: 0 1px 3px #072435;
+
+  h1 {
+    font-weight: normal;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    transition: 0.2s ease;
+    user-select: none;
+
+    &:hover {
+      cursor: default;
+      text-shadow: 0 0 .5px #eef1ff;
+    }
+  }
+
+  .loginBut {
+    background-color: #d14081;
+    color: #eef1ff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1) rotate(2.5deg);
+    }
+  }
+}
+
+.article {
+  flex-grow: 1;
+}
