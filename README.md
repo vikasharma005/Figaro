@@ -78,13 +78,13 @@ Set-ExecutionPolicy RemoteSigned
 
 #### Manual Setup
 
-First of all, for `Figaro` to be able to work with audio files other than `wav`, you need to download and install `ffmpeg` (see [References](#References) for the link to the official download page).
+First of all, for `Figaro` to be able to work with audio files other than `wav`, you need to download and install `ffmpeg`.
 
 - **Linux**: `pip install -r requirements-unix.txt`
 - **Mac**: `pip install -r requirements-unix.txt`
 - **Windows**: `pip install -r requirements-windows.txt`
 
-... if you're on **Windows** and you get an error when installing `PyAudio` try downloading a PIP wheel suitable for your Python version from the link provided in [References](#References).
+... if you're on **Windows** and you get an error when installing `PyAudio` try downloading a PIP wheel suitable for your Python version.
 
 If everything works out, you're good to go!
 
@@ -101,11 +101,11 @@ The following steps will explain how to use this program with the commonly used 
 
 ### CLI
 
-CLI-Usage is explained [here](docs/cli.md).
+CLI-Usage is explained [here](https://github.com/vikasharma005/Figaro/blob/main/docs/cli.md).
 
 ### GUI
 
-GUI-Usage is explained [here](docs/gui.md).
+GUI-Usage is explained [here](https://github.com/vikasharma005/Figaro/blob/main/docs/gui.md).
 
 ### Figaro-Script
 
