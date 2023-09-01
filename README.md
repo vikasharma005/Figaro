@@ -37,7 +37,7 @@ Real-time open-source voice modification program & sound board. Can be useful fo
     - [Builtins](#builtins)
       - [Pause](#pause)
 - [Roadmap](#roadmap)
-- [References](#references)
+
 
 ## Setup
 
